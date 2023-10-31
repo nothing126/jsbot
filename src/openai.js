@@ -40,4 +40,4 @@ class openAI{
     }
 }
 
-export const openai = new openAI('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')
+export const openai = new openAI('token')
