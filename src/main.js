@@ -4,7 +4,7 @@ import {code} from 'telegraf/format'
 import {oga} from './oga.js'
 import {openai} from './openai.js'
 
-const bot = new Telegraf("6555063950:AAFoeXfhaewy-60cA3rF9yPj-OHUTL0H4Dk")
+const bot = new Telegraf("token")
 
 bot.on(message('voice'),async ctx =>{
  try{
